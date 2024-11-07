@@ -67,7 +67,7 @@ subset = preselector.preselect_bibliography(query="Your research title", max_sub
 
 ## Training
 
-To train the dual vector model on your own dataset, use the `train_fastbib.py` script. This script is designed to handle the training process, including loading data, defining the loss function, and updating the model's weights.
+The prepared anthology dataset can be found in https://huggingface.co/datasets/cestwc/anthology. To train the dual vector model on your own dataset, use the `train_fastbib.py` script. This script is designed to handle the training process, including loading data, defining the loss function, and updating the model's weights.
 
 ### Example Training Script Usage
 
